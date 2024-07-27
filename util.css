@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Playfair:ital,wght@1,800&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Inconsolata:wght@500&family=Playfair:ital,wght@1,800&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&family=Inconsolata:wght@500&family=Playfair:ital,wght@1,800&family=Ubuntu:wght@300&display=swap');
+:root {
+    --font1: 'Inconsolata', monospace;
+    --font2: 'Geologica', sans-serif;
+    --font3: 'Geologica', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+    font-size: medium;
+}
+.font2 {
+    font-family: var(--font2);
+}
+.font3 {
+    font-family: var(--font3);
+
+}
+
+
+.white-color {
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.m-auto {
+    margin: auto;
+}
+
+.top-left {
+    display: flex;
+}
+
+/* .top-right a{
+    height: 100px;
+    width: 80px; 
+}*/
+
+.no-dec {
+    text-decoration: none;
+}
+
+.list-none {
+    list-style: none;
+}
+
+.width{
+    width: 300px;
+}
+
+.width span {
+
+    font-size: 1.7rem;
+}
+
+.small-padding{
+    padding: 12px;
+}
+
+.lrg-padding{
+    padding: 30px;
+}
